@@ -6,7 +6,7 @@ This is a simple json configuration file for the Monoprice Select Mini that work
 ## Installation (Mac OS)
 Either copy or symlink this file to the `machines` directory in the Cura app's resources folder.  Symlinking is preferred if you want to get updates from this repo.  Assuming you have Cura installed in the default directory, run:
 
-`ln -s $(pwd)/monoprice_mini.json /Applications/Cura.app/Contents/Resources/cura/resources/machines/`
+`ln -s $(pwd)/monoprice_mini.json /Applications/Cura.app/Contents/Resources/resources/definitions/`
 
 ... and then restart Cura. You should see "Monoprice" as a manufacturer under the "Manage Printers" screen.
 
